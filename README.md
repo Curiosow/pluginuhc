@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Curiosow</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css.css" rel="stylesheet" type="text/css"/>
+        <link href="w3.css" rel="stylesheet" type="text/css"/>
+        
+        <style>
+            
+            p.title {
+                text-align: center;
+                background:-webkit-linear-gradient(top, #ff9900 55%, #ffad33 45%);
+                background-clip:text;
+                -webkit-background-clip:text;
+                color:transparent;
+                font-size: 300%;
+            }
+            p.navigateStyle{
+                color: #b3b300;
+                font-size: 150%;
+                text-align: center;
+            }
+            p.firstParagraph{
+                color: #ffff1a;
+                font-size: 135%;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <!-- Titre -->
+        
+        <p class="title">Curiosow - Développement</p>
+        
+        <!-- Menu de navigation du site -->
+        <ul class="navbar">
+        <li><a href="index.html"> <p class="navigateStyle">Menu principal</p> </a>
+        <li><a href="api.html"> <p class="navigateStyle">Mes API</p> </a>
+        <li><a href="social.html"> <p class="navigateStyle">Mes Reseaux</p> </a>
+        </ul>
+
+        <!-- Contenu principal -->
+        <p class="firstParagraph">Bienvenue sur site de Curiosow<br>Tout ce qui est disponible ici est entièrement gratuit<br>Je rappel que le site est en construction, beaucoup de choses arrivent petit à petit.</p>
+
+    </body>
+</html>
